@@ -152,7 +152,7 @@ function excluirInscrito(id) {
 
 /* ===================== PIX ===================== */
 document.getElementById('copyPixBtn').addEventListener('click', () => {
-    const texto = `PIX: melkg7@hotmail.com | Valor: R$ 0,10`;
+    const texto = `melkg7@hotmail.com`;
 
     navigator.clipboard.writeText(texto).then(() => {
         const feedback = document.getElementById('copyFeedback');
